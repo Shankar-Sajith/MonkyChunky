@@ -40,14 +40,14 @@ export default class App extends React.Component {
 
             db[word]?(
               this.setState({
-                   chunks: db[word].chunks,
+                   chunks: db[word].chunks
         
                  }),
                  this.setState({
                  
                   sound: db[word].phones
                  })
-            ):Alert.alert("The word does not exist on our dataBase");
+            ):Alert.alert("The word does not exist on our database");
              
 
             
